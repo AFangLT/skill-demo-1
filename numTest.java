@@ -1,6 +1,5 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.*;
 
 public class numTest {
     num five = new num(5);
