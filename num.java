@@ -5,10 +5,8 @@ public class num {
         this.num = num;
     }
 
-    public boolean greaterThan(int c) {
-        if(this.num > c) {
-            return true;
-        }
-        else return false;
+    public int sum(int c) {
+        this.num += c;
+        return num;
     }
 }
